@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/capricornio"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".capricornio">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/verde"
+        android:textSize="30dp"
+        android:text="CAPRICORNIO"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/amarillo"
+        android:textSize="25dp"
+        android:text="Elemento: Tierra"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/amarillo"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Color Suerte:Marrón, Gris y Negro"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/amarillo"
+        android:textSize="25dp"
+        android:text="Compatibilidad: Tauro y Virgo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/amarillo"
+        android:textSize="25dp"
+        android:text="Número Suerte:1,4,8,10,13,17"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/amarillo"
+        android:textSize="25dp"
+        android:text="Nacimiento:22 Diciembre a 19 Enero"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/verde"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="AMOR Y SEXO"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/amarillo"
+            android:text="Cuando se trata de amor y relaciones, es difícil ganarle a un Capricornio. Pero, si tienes éxito en apoderarte de uno, Capricornio se comprometerá toda su vida. Capricornio es un amante serio, al que le gusta hacer las cosas con calma y a fondo. Las personas nacidas bajo el signo de Capricornio expresan sus sentimientos a través de acciones más que con palabras."
+            android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/verde"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="Dinero"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/amarillo"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Los nacidos Capricornio son muy ingeniosos y saben cómo manejar su tiempo y dinero. Son muy trabajadores y se comprometen hasta la médula. Capricornio sabe que solo el trabajo duro le traerá éxito al largo plazo."/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+

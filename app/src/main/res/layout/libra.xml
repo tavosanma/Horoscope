@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/libra"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".libra">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/verde"
+        android:textSize="30dp"
+        android:text="Libra"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/celeste"
+        android:textSize="25dp"
+        android:text="Elemento: Aire"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/celeste"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Color Suerte:Azul y Verde"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/celeste"
+        android:textSize="25dp"
+        android:text="Compatibilidad: Géminis"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/celeste"
+        android:textSize="25dp"
+        android:text="Número Suerte:6,15,24,33,42,51"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/celeste"
+        android:textSize="25dp"
+        android:text="Nacimiento:23 Septiembre a 22 Octubre"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/verde"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="AMOR Y SEXO"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/celeste"
+            android:text="Encontrar al compañero ideal será una prioridad en la vida de las personas nacidas bajo el signo de Libra. Para un Libra que ya se encuentra en una relación, mantener paz y harmonía en la pareja es la cosa más importante. La soledad les es antinatural y muy triste."
+            android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/verde"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="Dinero"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/celeste"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Si vas de compras con Libra, lo mejor que puedes hacer es planear algo de tiempo extra. Cuando se trata de compras, puede ser muy indeciso. Son muy talentosos en lo que se refiere a hacer un balance entre ahorrar y gastar dinero. Aman la moda y la buena ropa, es por ello que quizá los veas con frecuencia en un centro comercial."/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+

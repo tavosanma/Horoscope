@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/geminis"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".geminis">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/naranjo"
+        android:textSize="30dp"
+        android:text="GEMINIS"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/celeste"
+        android:textSize="25dp"
+        android:text="Elemento: Aire"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/celeste"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Color Suerte:Verde, Amarillo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/celeste"
+        android:textSize="25dp"
+        android:text="Compatibilidad: Libra y Acuario"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/celeste"
+        android:textSize="25dp"
+        android:text="Número Suerte:3,8,12,23 "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/celeste"
+        android:textSize="25dp"
+        android:text="Nacimiento:21 Mayo a 20 Junio"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/naranjo"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="AMOR Y SEXO"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/celeste"
+            android:text="Divertido y siempre listo para un reto intelectual, Géminis es un amante feroz. La comunicación es muy importante para Géminis, tanto como el contacto físico y cuando estos dos aspectos e combinan nada es un obstáculo."
+            android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/naranjo"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="DINERO"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/celeste"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Decidir entre practicidad y placer puede ser una difícil elección para Géminis, A pesar de que consideran que el dinero es un mal necesario, la mayoría de los Géminis no pasarán mucho tiempo pensando de dónde obtenerlo"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+

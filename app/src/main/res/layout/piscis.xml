@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/piscis"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".piscis">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/rojo"
+        android:textSize="30dp"
+        android:text="PISCIS"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/verde"
+        android:textSize="25dp"
+        android:text="Elemento: Agua"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/verde"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Color Suerte:Lila,Purpura y Violeta"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/verde"
+        android:textSize="25dp"
+        android:text="Compatibilidad: Cáncer y Escorpio"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/verde"
+        android:textSize="25dp"
+        android:text="Número Suerte:3,7,12,16,21,25 "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/verde"
+        android:textSize="25dp"
+        android:text="Nacimiento:19 febrero a 20 Marzo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/rojo"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="AMOR Y SEXO"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/verde"
+            android:text="En lo profundo de sus corazones, los Piscis son románticos incorregibles."
+            android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/rojo"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="DINERO"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/verde"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Intuitivos y a menudo soñadores, Piscis se siente mejor cuando está en posición de darle rienda suelta a sus habilidades creativas, y aun mejor, si es para algún acto de caridad. Las ocupaciones que van con piscis son: abogados, arquitecto, veterinario, músico, trabajador social y diseñador de juegos."/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+

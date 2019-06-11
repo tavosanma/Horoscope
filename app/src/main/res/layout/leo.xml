@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/leo"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".leo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/rojo"
+        android:textSize="30dp"
+        android:text="LEO"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/negro"
+        android:textSize="25dp"
+        android:text="Elemento: Fuego"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/negro"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Color Suerte:Oro, Naranjo, Blanco"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/negro"
+        android:textSize="25dp"
+        android:text="Compatibilidad: Aries y Sagitario"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/negro"
+        android:textSize="25dp"
+        android:text="Número Suerte:1,4,10,13,19,22 "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/negro"
+        android:textSize="25dp"
+        android:text="Nacimiento:23 Julio a 22 AGosto"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/rojo"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="AMOR Y SEXO"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/negro"
+            android:text="Este signo de fuego es apasionado y sincero respecto sus sentimientos. Cuando se trata de sexo, Leo pude ser aventurero, divertido y enérgico. Para los Leos existen claras diferencias entre el amor y el sexo. Eligen a sus parejas con base en que tan dispuestas están para darles una posición de liderazgo e independencia."
+            android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/rojo"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="Dinero"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/negro"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Ocupaciones como administración, educación y política son también buenas opciones para los Leos. Nunca hay falta de empleo, de hecho, tienen más empleo del que pueden realizar."/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+

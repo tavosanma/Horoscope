@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/virgo"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".virgo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/celeste"
+        android:textSize="30dp"
+        android:text="VIRGO"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/cafe"
+        android:textSize="25dp"
+        android:text="Elemento: Tierra"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/cafe"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Color Suerte:Blanco, Amarillo, Verde"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/cafe"
+        android:textSize="25dp"
+        android:text="Compatibilidad: Tauro y Capricornio"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/cafe"
+        android:textSize="25dp"
+        android:text="Número Suerte:5,14,23,32,41,50"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/cafe"
+        android:textSize="25dp"
+        android:text="Nacimiento:23 Agosto a 22 Septiembre"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/celeste"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="AMOR Y SEXO"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/cafe"
+            android:text="Los Virgo necesitan sentirse deseados por sus parejas. Son metódicos y tácticos, lo cual los convierte en excelentes amantes. A pesar de que no se inclinan a dar declaraciones de amor, sin duda demostrarán sus sentimientos en la cama. Los Virgo prefieren tener un par de relaciones estables en vez de muchas parejas. "
+            android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/celeste"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="Dinero"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cafe"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Los Virgos son excelentes gastando dinero ya que siempre son muy cuidados y tratan de guardar tanto como le sea posible, Planean todos los gastos y cuando se trata de compras no tienden a gastar mucho. Sin embargo, de vez en cuando les gusta comprar algo indo para sí mismos."/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+

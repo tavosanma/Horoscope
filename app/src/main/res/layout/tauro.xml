@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/tauro"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".tauro">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/rojo"
+        android:textSize="30dp"
+        android:text="TAURO"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/cafe"
+        android:textSize="25dp"
+        android:text="Elemento: Tierra"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/cafe"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Color Suerte:Azul, Rosa, Verde"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/cafe"
+        android:textSize="25dp"
+        android:text="Compatibilidad: Virgo y Capricornio"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/cafe"
+        android:textSize="25dp"
+        android:text="Número Suerte:2,4,6,11,20,29,56 "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/cafe"
+        android:textSize="25dp"
+        android:text="Nacimiento:20 Abril a 20 Mayo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/rojo"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="AMOR Y SEXO"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/cafe"
+            android:text="Prepárate para ser paciente si quieres a Tauro como amante. Son extremadamente sensuales y el tacto es muy importante para ellos."
+            android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/rojo"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="DINERO"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cafe"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Estabilidad es la palabra clave para este signo zodiacal. Tauro ama el dinero y trabajará duro para incrementar su cuenta bancaria. En el trabajo, Tauro es confiable, trabajador, paciente y minucioso. Cuando se enfoca en un proyecto, se mantiene firme sin importar lo que suceda."/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+

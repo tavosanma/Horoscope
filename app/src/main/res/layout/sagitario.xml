@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/sagitario"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".sagitario">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/rojo"
+        android:textSize="30dp"
+        android:text="SAGITARIO"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/verde"
+        android:textSize="25dp"
+        android:text="Elemento: Fuego"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/verde"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Color Suerte:Violeta, Rojo y Rosa"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/verde"
+        android:textSize="25dp"
+        android:text="Compatibilidad: Aries y Leo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/verde"
+        android:textSize="25dp"
+        android:text="Número Suerte:3,12,21,30"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/verde"
+        android:textSize="25dp"
+        android:text="Nacimiento:22 Noviembre a 21 Diciembre"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/rojo"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="AMOR Y SEXO"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/verde"
+            android:text="Las personas nacidas bajo el signo de Sagitario son muy juguetonas y humorísticas, lo que significa que van a disfrutar divertirse con sus parejas. Las parejas que son igualmente abiertas, sin duda se adaptarán al apasionado y expresivo Sagitario que está dispuesto a intentar casi cualquier cosa."
+            android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/rojo"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="Dinero"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/verde"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Sagitario, amante de la diversión, gusta de hacer y gastar dinero. Considerado como el signo más feliz del zodiaco, a Sagitario no le importa mucho de dónde obtendrá dinero. Toman riesgos y son muy optimistas. Ellos creen que el universo proporcionará todo lo que necesitan."/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+

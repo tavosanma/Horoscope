@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/escorpio"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".escorpio">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/rojo"
+        android:textSize="30dp"
+        android:text="Escorpio"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/naranjo"
+        android:textSize="25dp"
+        android:text="Elemento: Agua"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/naranjo"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Color Suerte:Escarlata y Rojo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/naranjo"
+        android:textSize="25dp"
+        android:text="Compatibilidad: Cancer y Piscis"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/naranjo"
+        android:textSize="25dp"
+        android:text="Número Suerte:9,18,27,36,45,54"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/naranjo"
+        android:textSize="25dp"
+        android:text="Nacimiento:23 Octubre a 21 Noviembre"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/rojo"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="AMOR Y SEXO"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/naranjo"
+            android:text="scorpio es el signo más sensual del zodiaco. Los Escorpio son extremadamente apasionados y la intimidad es muy importante para ellos. Quieren parejas inteligentes y honestas. Una vez que se enamoran, son dedicados y fieles. Sin embargo, comienzan sus relaciones de manera cautelosa, ya que en ocasiones necesitan de mucho tiempo para confiar y respetar a sus parejas."
+            android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/rojo"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="Dinero"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/naranjo"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Escorpio son lo suficientemente disciplinados para ajustarse a su presupuesto, pero tampoco le temen al trabajo duro para garantizarse una mejor situación financiera. Sin embargo, no se inclinan a gastar mucho. El dinero significa seguridad y sentido de control para ellos, lo que significa que son buenos ahorrando dinero y toman decisiones cuidadosamente antes de hacer alguna inversión."/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+

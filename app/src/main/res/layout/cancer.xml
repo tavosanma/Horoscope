@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/cancer"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".cancer">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/verde"
+        android:textSize="30dp"
+        android:text="CANCER"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/naranjo"
+        android:textSize="25dp"
+        android:text="Elemento: Agua"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/naranjo"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Color Suerte:Blanco"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/naranjo"
+        android:textSize="25dp"
+        android:text="Compatibilidad: Escorpio y Piscis"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/naranjo"
+        android:textSize="25dp"
+        android:text="Número Suerte:2,7,11,16,20,25 "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/naranjo"
+        android:textSize="25dp"
+        android:text="Nacimiento:21 Junio a 22 Julio"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/verde"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="AMOR Y SEXO"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/naranjo"
+            android:text="Cáncer es un signo sumamente emocional, es por eso que para ellos los sentimientos son lo más s importante cuando se trata de amor y romance. Amable y cuidadoso, Cáncer demostrará su sensibilidad sin siquiera pensarlo. Como pareja, suelen elegir personas que puedan entenderlos bien."
+            android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/verde"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="Dinero"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/naranjo"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Para los nacidos bajo el signo de Cáncer la seguridad y el dinero son de gran importancia, cuando se trata de trabajo. Son capaces de ganar dinero de manera fácil, pero también lo gastan con facilidad. Cáncer no suele gastar mucho dinero, de hecho, se inclina más a invertir y observar su dinero crecer día a día. Cáncer es una persona con muchos recursos y es bueno manejando su tiempo y dinero."/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+
